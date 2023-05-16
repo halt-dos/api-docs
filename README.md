@@ -16,9 +16,8 @@ npm i -g @redocly/cli@latest
 
 2. Run the build-docs command, where you have placed the JSON/YAML file. Static HTML File (**index.html**) will be generated.
 ```
-redocly build-docs filename.json  -o index.html
+redocly build-docs filename.json -o index.html
 ```
-
 
 3. Push the index.html to api-docs repository, and it will automatically get build and deployed to GitHub Pages.
 
